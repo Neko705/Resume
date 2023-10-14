@@ -117,7 +117,7 @@ img{
 @media  screen and (max-width: 968px) {
     .nav__menu{
         position: fixed;
-        bottom: var(--header-height);
+        bottom: -100%;
         left: 0;
         width: 100%;
         padding: 2rem 1.5rem;
@@ -137,4 +137,35 @@ img{
 .nav__toggle{
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+.nav__item{
+    text-align: center;
+}
+
+.nav__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.nav__link{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+    font-weight: var(--font-medium);
+}
+
+.nav__link:hover{
+    color: var(--title-color);
+}
+
+.nav__icon{
+    font-size: 1.2rem;
+    margin-bottom: var(--mb-1);
+}
+
+.show-menu{
+    bottom: var(--header-height);
 }
