@@ -66,8 +66,8 @@ a{
 }
 
 img{
-    min-height: 10%;
-    height: auto;
+    min-height: auto;
+    height: 70px;
 }
 
 .section{
@@ -169,3 +169,96 @@ img{
 .show-menu{
     bottom: var(--header-height);
 }
+
+.active-link{
+    color: var(--title-color);
+}
+
+.home{
+    position: relative;
+}
+
+.home__container{
+    gap: 3rem;
+}
+
+.home__data{
+    gap: 5rem;
+    text-align: center;
+}
+
+.home__img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    justify-self: center;
+    margin-bottom: var(--mb-1);
+}
+
+.home__title{
+    font-size: var(--h1-font-size);
+}
+
+.home__profession{
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.home__address{
+    gap: 1rem;
+}
+
+.home__information{
+    display: flex;
+    align-items:center;
+    font-size: var(--small-font-size);
+}
+
+.home__icon{
+    font-size: 1.2rem;
+}
+
+.home__button-movil{
+    display: inline-block;
+    border: 2px solid var(--text-color);
+    color: var(--title-color);
+    padding: 1rem 1rem;
+    border-radius: 10rem;
+    font-weight: var(--font-medium);
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.home__button-movil:hover{
+    background-color: var(--text-color);
+    color: var(--container-color);
+}
+
+.social__container{
+    grid-template-columns: max-content;
+    gap: 1rem;
+}
+
+.social__link{
+    display:flex;
+    align-items:center;
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+}
+
+.social__link:hover{
+    color: var(--title-color);
+}
+
+.social__icon{
+    font-size: 1.2rem;
+    margin-right: .25rem;
+}
+
+.profile__description {
+    text-align: center;
+}
+
+
+
+
