@@ -102,8 +102,8 @@ a{
 }
 
 img{
-    min-height: auto;
-    height: 70px;
+    min-height:auto;
+    height: 20px;
 }
 
 .section{
@@ -249,7 +249,7 @@ img{
 .home__information{
     display: flex;
     align-items:center;
-    font-size: var(--small-font-size);
+    font-size:17px;
 }
 
 .home__icon{
